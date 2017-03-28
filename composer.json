@@ -1,0 +1,29 @@
+{
+    "type": "nabu-runtime",
+    "name": "nabu-3/runtime-assets-ckeditor",
+    "description": "nabu-3 Runtime CKEditor",
+    "keywords": [ "nabu-3", "nabu", "javascript", "runtime", "text", "wysiwyg", "editor", "CKEditor", "fckeditor", "richtext" ],
+    "version": "0.0.1",
+    "license": [ "GPL-2.0+", "LGPL-2.1+", "MPL-1.1+" ],
+    "authors": [
+        {
+            "name": "Rafael Gutierrez",
+            "email": "ragutimar@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "nabu-3/composer-installer-plugin": ">=3.0",
+        "ckeditor/ckeditor": "4.6.2"
+    },
+    "require-dev": {
+        "nabu-3/composer-installer-plugin": "dev-master",
+        "ckeditor/ckeditor": "4.6.2"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nabu-3/runtime-assets-ckeditor"
+        }
+    ]
+}
