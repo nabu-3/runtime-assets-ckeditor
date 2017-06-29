@@ -36,6 +36,6 @@ CKEDITOR.editorConfig = function( config ) {
 	//config.removeDialogTabs = 'image:advanced;link:advanced';
 
 	// Custom nabu-3 options
-	config.extraPlugins = 'colordialog,colorbutton,font,devtools';
+	config.extraPlugins = 'colordialog,colorbutton,font,nabu';
 	config.allowedContent = true;
 };
